@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: social_ads_raw
+    database: social-ads-analytics
+    schema: social_ads_raw
+    tables:
+      - name: users
+      - name: campaigns
+      - name: ads
+      - name: ad_events 
